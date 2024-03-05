@@ -1,0 +1,47 @@
+MATCH = 2
+
+gameMode = 1
+difficulty = -1
+startingPlayer = 1
+
+None|None|None|None|None|None|None
+None|None|None|None|None|None|None
+None|None|Blue|None|None|None|None
+None|None|Blue|None|None|None|None
+None|None|Blue|None|None|None|None
+Red|Red|Blue|None|Red|None|None
+
+player1Name = 1
+player1Age = 1
+player1Color = Red
+player1ImAI = false
+player1CanMove = false
+player1ColumnToPut = -1
+
+player2Name = 2
+player2Age = 2
+player2Color = Blue
+player2ImAI = false
+player2CanMove = false
+player2ColumnToPut = -1
+
+turn = 1
+playing = true
+timerSecond = 12
+timerMinute = 0
+
+maxDepth = 0
+AILetter = -1
+
+0|0|0|0|0|0|0
+0|0|0|0|0|0|0
+0|0|0|0|0|0|0
+0|0|0|0|0|0|0
+0|0|0|0|0|0|0
+0|0|0|0|0|0|0
+
+winner = 0
+lastLetterPlayed = 1
+lastMoveROW = -1
+lastMoveCOL = -1
+lastMoveVALUE = 0
