@@ -388,9 +388,9 @@ public class GUI
 
         //Assign the sizes and positions of the components
         titleTxt.setBounds (300, 40, 300, 35);
-        easyRBttn.setBounds (395, 145, 110, 60);
-        normalRBttn.setBounds (382, 245, 135, 60);
-        hardRBttn.setBounds (395, 345, 110, 60);
+        easyRBttn.setBounds (395, 145, 130, 60);
+        normalRBttn.setBounds (382, 245, 155, 60);
+        hardRBttn.setBounds (395, 345, 130, 60);
         nextBttn.setBounds (370, 465, 160, 60);
         ButtonGroup buttonGroup = new ButtonGroup();
         buttonGroup.add(easyRBttn);
@@ -483,10 +483,10 @@ public class GUI
 
         //Assign the sizes and positions of the components
         titleTxt.setBounds (300, 40, 300, 35);
-        player1RBttn.setBounds (377, 125, 145, 40);
-        player2RBttn.setBounds (377, 205, 145, 40);
-        randomRBttn.setBounds (377, 285, 145, 40);
-        youngestRBttn.setBounds (373, 365, 170, 40);
+        player1RBttn.setBounds (377, 125, 165, 40);
+        player2RBttn.setBounds (377, 205, 165, 40);
+        randomRBttn.setBounds (377, 285, 165, 40);
+        youngestRBttn.setBounds (373, 365, 180, 40);
         startBttn.setBounds (370, 465, 160, 60);
         ButtonGroup buttonGroup = new ButtonGroup();
         buttonGroup.add(player1RBttn);
