@@ -32,7 +32,7 @@ public class GUI
         this.fileManager = fileManager;
 
         //Setup the frame
-        frame = new JFrame ("Connect4, By: Julian Sellanes");
+        frame = new JFrame ("Connect4, By: Julián Sellanes");
         frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setFocusable(true);
@@ -67,7 +67,7 @@ public class GUI
 
         //Declare new components for the panel
         JLabel titleTxt = new JLabel ("Connect4");
-        JLabel infoTxt = new JLabel ("<html>Members: Julian Sellanes<br/>Teacher: Jey Anandarajan<br/>ICS4U1-03<br/>June/7/2022</html>");
+        JLabel infoTxt = new JLabel ("<html>Student: Julián Sellanes<br/>Teacher: Jey Anandarajan<br/>ICS4U1-03<br/>June/7/2022</html>");
         final JButton PvPBttn = new JButton ("Player vs Player");
         final JButton PvAIBttn = new JButton ("Player vs AI");
         final JButton AIvAIBttn = new JButton ("AI vs AI");
@@ -147,7 +147,7 @@ public class GUI
                                     int posX = 212 + (70 * c);
                                     int posY = 110 + (70 * r);
                                     previousToken.setBounds (posX, posY, 56, 56);
-                                    previousToken.setIcon(new ImageIcon(getClass().getResource("./pictures/" + gameManager.getMainBoard().getBoard()[r][c].getColor() + "Token.png")));
+                                    previousToken.setIcon(new ImageIcon(getClass().getResource("./Game/pictures/" + gameManager.getMainBoard().getBoard()[r][c].getColor() + "Token.png")));
                                     tokensInScene.add(previousToken);
                                 }
                             }

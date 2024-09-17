@@ -11,9 +11,9 @@ import javax.sound.sampled.*;
 public class MusicManager
 {
     //Declare the path of the music files
-    private String musicPath = "./music/BGMusic.wav";
-    private String tokenPath = "./music/TokenSoundEffect.wav";
-    private String victoryPath = "./music/VictorySoundEffect.wav";
+    private String musicPath = "./Game/music/BGMusic.wav";
+    private String tokenPath = "./Game/music/TokenSoundEffect.wav";
+    private String victoryPath = "./Game/music/VictorySoundEffect.wav";
     //Declare Clips
     Clip clipMusic;
     Clip clipToken;

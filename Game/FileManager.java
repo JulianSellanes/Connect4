@@ -14,7 +14,7 @@ public class FileManager
     private MenuManager menuManager;
     private GameManager gameManager;
 
-    private final String savePath = "./saves/"; //Declare the path of the folder where the games are saved
+    private final String savePath = "./Game/saves/"; //Declare the path of the folder where the games are saved
     private int match; //Declare the variable that has the number of the match
     private File currentFile; //Declare the variable that has the file we are using
 
